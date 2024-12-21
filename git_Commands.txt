@@ -1,0 +1,25 @@
+Here’s a table with commonly used Git commands for beginners, along with their descriptions:
+
+| **Command**               | **Description**                                                                                                                                   |
+|---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| `git init`               | Initializes a new Git repository in the current directory.                                                                                      |
+| `git clone <URL>`        | Creates a copy of an existing repository from a remote location (e.g., GitHub).                                                                 |
+| `git add <file>`         | Stages changes for a specific file to be committed. Use `git add .` to stage all changes.                                                      |
+| `git commit -m "<msg>"`  | Records the staged changes with a descriptive message for the snapshot.                                                                         |
+| `git status`             | Displays the status of the working directory, showing staged, unstaged, and untracked files.                                                   |
+| `git log`                | Displays a log of the commit history with details like author and message.                                                                      |
+| `git branch`             | Lists all branches in the repository. The current branch is highlighted with an asterisk (*).                                                  |
+| `git checkout <branch>`  | Switches to the specified branch.                                                                                                               |
+| `git merge <branch>`     | Merges the specified branch into the current branch.                                                                                            |
+| `git pull`               | Fetches changes from the remote repository and merges them into the current branch.                                                            |
+| `git push`               | Uploads the local changes from your current branch to the corresponding branch on a remote repository.                                          |
+| `git remote -v`          | Lists the remote repositories associated with the local repository.                                                                             |
+| `git diff`               | Shows the differences between changes in the working directory and what is staged or between commits.                                           |
+| `git reset <file>`       | Unstages a file that has been added to the staging area (but keeps the changes in the working directory).                                       |
+| `git rm <file>`          | Removes a file from the working directory and stages the deletion.                                                                              |
+| `git stash`              | Temporarily saves changes not yet committed, so you can work on something else and come back later.                                             |
+| `git stash pop`          | Applies the latest stashed changes and removes them from the stash.                                                                             |
+| `git fetch`              | Downloads changes from a remote repository without merging them into your working directory.                                                   |
+| `git tag <tagname>`      | Adds a tag to a specific commit, commonly used to mark release versions.                                                                        |
+
+This list is tailored for beginners to help them get started with the basics of Git and GitHub. Let me know if you'd like any command explained further!
